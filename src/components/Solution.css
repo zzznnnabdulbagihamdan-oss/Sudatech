@@ -1,0 +1,129 @@
+.solution {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.solution::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: rgba(6, 182, 212, 0.1);
+  border-radius: 50%;
+}
+
+.solution::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -5%;
+  width: 500px;
+  height: 500px;
+  background: rgba(6, 182, 212, 0.05);
+  border-radius: 50%;
+}
+
+.solution .container {
+  position: relative;
+  z-index: 1;
+}
+
+.solution .section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.solution .section-header h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.solution .section-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  margin: 0 auto 15px;
+}
+
+.solution .section-description {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.dark-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(6, 182, 212, 0.3);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.dark-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(6, 182, 212, 0.6);
+  box-shadow: 0 8px 32px rgba(6, 182, 212, 0.2);
+}
+
+.dark-card h3 {
+  color: white;
+}
+
+.dark-card p {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-card .card-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .solution .section-header {
+    margin-bottom: 40px;
+  }
+
+  .solution .section-header h2 {
+    font-size: 28px;
+  }
+
+  .solution .section-subtitle {
+    font-size: 16px;
+  }
+
+  .solution .section-description {
+    font-size: 14px;
+  }
+
+  .dark-card {
+    padding: 20px !important;
+  }
+
+  .dark-card .card-icon {
+    font-size: 40px;
+  }
+
+  .dark-card h3 {
+    font-size: 18px;
+  }
+
+  .dark-card p {
+    font-size: 14px;
+  }
+
+  .solution::before {
+    width: 400px;
+    height: 400px;
+  }
+
+  .solution::after {
+    width: 300px;
+    height: 300px;
+  }
+}

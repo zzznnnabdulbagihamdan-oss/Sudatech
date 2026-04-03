@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "impact": "Social Impact",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Leading AI in Sudanese Education",
+    "subtitle": "An intelligent educational platform that bridges the educational gap and provides a smart tutor available 24/7",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "problem": {
+    "title": "The Problem & Motivation",
+    "subtitle": "Challenges Facing Education in Sudan",
+    "issues": {
+      "disruption": {
+        "title": "Educational Disruption",
+        "description": "Academic year stability affected by social and economic circumstances"
+      },
+      "connectivity": {
+        "title": "Internet Cost",
+        "description": "The biggest barrier for students to access global educational platforms"
+      },
+      "scarcity": {
+        "title": "Teacher Scarcity",
+        "description": "Difficulty for students to access specialized teachers in remote areas"
+      }
+    }
+  },
+  "solution": {
+    "title": "The Proposed Solution",
+    "subtitle": "A Progressive Web App (PWA) with AI and Data-Lite Technology",
+    "description": "Integrates official curriculum content with generative AI to provide a unique educational experience",
+    "highlights": {
+      "dataLite": {
+        "title": "Minimal Data Consumption",
+        "description": "Advanced compression techniques reduce internet usage by 90%"
+      },
+      "offline": {
+        "title": "Offline Learning",
+        "description": "Download study units once and learn without internet connection"
+      },
+      "localized": {
+        "title": "National Curriculum Support",
+        "description": "Customized training based on Sudanese Ministry textbooks for secondary education"
+      }
+    }
+  },
+  "features": {
+    "title": "Unique Technical Features",
+    "subtitle": "What Makes SudaTech Stand Out",
+    "items": {
+      "ai": {
+        "title": "Smart Assistant (Suda-AI)",
+        "description": "A search and answer engine built on language models trained on Sudanese curriculum"
+      },
+      "sync": {
+        "title": "Smart Sync System",
+        "description": "Intelligent synchronization between device and server reduces data consumption"
+      },
+      "ui": {
+        "title": "Minimalist Interface",
+        "description": "Simple and fast-loading design that supports all devices and speeds"
+      },
+      "curriculum": {
+        "title": "Comprehensive Curriculum Content",
+        "description": "All secondary school subjects with interactive explanations and exercises"
+      },
+      "progress": {
+        "title": "Progress Tracking",
+        "description": "Advanced system to track student progress and provide personalized recommendations"
+      },
+      "community": {
+        "title": "Learning Community",
+        "description": "Platform for communication between students and teachers to share experiences"
+      }
+    }
+  },
+  "impact": {
+    "title": "Social Impact & Sustainability",
+    "subtitle": "Our Vision for Improving Education in Sudan",
+    "goals": {
+      "access": {
+        "title": "Expanding Educational Access",
+        "description": "Providing equal educational opportunities for all students regardless of geographic location"
+      },
+      "quality": {
+        "title": "Improving Education Quality",
+        "description": "Using modern technologies to deliver high-quality and effective education"
+      },
+      "sustainability": {
+        "title": "Economic Sustainability",
+        "description": "A sustainable economic model that reduces education costs for students and institutions"
+      },
+      "innovation": {
+        "title": "Technological Innovation",
+        "description": "Pushing the boundaries of technology in education and creating a globally applicable model"
+      }
+    }
+  },
+  "team": {
+    "title": "Team",
+    "subtitle": "Experts and Specialists Behind the Project",
+    "lead": {
+      "name": "Abdulbaki Hamdan Adam Ismail",
+      "title": "AI Researcher & Founder",
+      "bio": "Specialist in generative AI and its applications in education"
+    }
+  },
+  "footer": {
+    "copyright": "All Rights Reserved © 2024 SudaTech Platform",
+    "description": "An intelligent educational platform bridging the educational gap in Sudan",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "contact": "Contact Us"
+    }
+  }
+}
