@@ -119,5 +119,18 @@
       "terms": "Terms of Use",
       "contact": "Contact Us"
     }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer your questions",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "social": "Social Media",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "follow_us": "Follow us on social media",
+    "contact_us": "Contact Us",
+    "message_placeholder": "Write your message here"
   }
 }

@@ -119,5 +119,18 @@
       "terms": "شروط الاستخدام",
       "contact": "تواصل معنا"
     }
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "نحن هنا للإجابة على أسئلتك",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "whatsapp": "واتساب",
+    "social": "وسائل التواصل الاجتماعي",
+    "linkedin": "LinkedIn",
+    "facebook": "Facebook",
+    "follow_us": "تابعنا على وسائل التواصل",
+    "contact_us": "تواصل معنا",
+    "message_placeholder": "اكتب رسالتك هنا"
   }
 }

@@ -7,6 +7,7 @@ import Solution from './components/Solution';
 import Features from './components/Features';
 import Impact from './components/Impact';
 import Team from './components/Team';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AIAssistant from './components/AIAssistant';
 import './App.css';
@@ -31,6 +32,7 @@ function App() {
         <Features />
         <Impact />
         <Team />
+        <Contact />
       </main>
       <Footer />
       <AIAssistant />
