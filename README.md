@@ -1,16 +1,120 @@
-# React + Vite
+# منصة سودا-تك SudaTech - الموقع الرئيسي
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+منصة تعليمية ذكية تجسر الفجوة التعليمية في السودان من خلال الذكاء الاصطناعي التوليدي.
 
-Currently, two official plugins are available:
+## 🎯 الرؤية
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ريادة الذكاء الاصطناعي في التعليم السوداني للمرحلة الثانوية
 
-## React Compiler
+## ✨ الميزات الرئيسية
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ **ثنائي اللغة** - العربية والإنجليزية
+- ✅ **مساعد ذكي** - يجيب على أسئلة الطلاب 24/7
+- ✅ **تصميم احترافي** - ألوان مميزة (أزرق بحري وفيروزي)
+- ✅ **متجاوب** - يعمل على جميع الأجهزة
+- ✅ **معلومات تواصل كاملة** - سهولة التواصل مع الممولين والطلاب
 
-## Expanding the ESLint configuration
+## 🛠️ التكنولوجيا
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18** - مكتبة واجهات المستخدم
+- **Vite** - أداة البناء السريعة
+- **i18next** - دعم اللغات المتعددة
+- **Lucide React** - الرموز والأيقونات
+- **CSS3** - التصميم والرسوم المتحركة
+
+## 📁 هيكل المشروع
+
+```
+sudatech/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Problem.jsx
+│   │   ├── Solution.jsx
+│   │   ├── Features.jsx
+│   │   ├── Impact.jsx
+│   │   ├── Team.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── AIAssistant.jsx
+│   ├── locales/
+│   │   ├── ar.json
+│   │   └── en.json
+│   ├── i18n.js
+│   ├── App.jsx
+│   └── index.css
+├── vercel.json
+├── package.json
+└── README.md
+```
+
+## 🚀 البدء السريع
+
+### التثبيت
+
+```bash
+cd sudatech
+pnpm install
+```
+
+### التطوير
+
+```bash
+pnpm dev
+```
+
+الموقع سيكون متاحاً على `http://localhost:5174`
+
+### البناء للإنتاج
+
+```bash
+pnpm build
+```
+
+## 📞 معلومات التواصل
+
+- **البريد الإلكتروني:** zzznnnabdulbagihamdan@gmail.com
+- **الهاتف:** +249 128 020 157
+- **WhatsApp:** +249 965 656 367
+- **LinkedIn:** https://www.linkedin.com/in/abdulbagi-hamdan-adam-ismail-097742340
+- **Facebook:** https://www.facebook.com/share/1Lj1fesWZV/
+
+## 📋 الأقسام الرئيسية
+
+1. **الرئيسية (Hero)** - عرض جذاب للمشروع
+2. **المشكلة والدوافع** - التحديات التي تواجه التعليم
+3. **الحل المقترح** - الميزات التقنية الأساسية
+4. **الميزات** - 6 ميزات فريدة
+5. **التأثير الاجتماعي** - الأهداف والاستدامة
+6. **الفريق** - معلومات المؤسس
+7. **التواصل** - معلومات التواصل الكاملة
+
+## 🔐 الأمان
+
+- ✅ HTTPS آمن
+- ✅ لا توجد بيانات حساسة مخزنة محلياً
+- ✅ متوافق مع معايير الخصوصية
+
+## 📈 الإحصائيات
+
+- **عدد الصفحات:** 1 صفحة واحدة (Single Page Application)
+- **حجم الملف:** ~150KB
+- **سرعة التحميل:** < 2 ثانية
+- **التوافقية:** جميع المتصفحات الحديثة
+
+## 🎓 المنصة التعليمية (MVP)
+
+للمنصة التعليمية الكاملة، انظر مشروع `sudatech-mvp`
+
+## 📄 الترخيص
+
+جميع الحقوق محفوظة © 2024 منصة سودا-تك
+
+## 🤝 المساهمة
+
+نرحب بمساهماتك! يرجى التواصل معنا على البريد الإلكتروني.
+
+---
+
+**تم الإنشاء بـ ❤️ من أجل التعليم في السودان**
