@@ -9,7 +9,7 @@ export default function Team() {
     name: 'Abdulbagi Hamdan Adam Ismail',
     title: t('team.lead.title'),
     bio: t('team.lead.bio'),
-    image: '/profile.jpg',
+    image: '/profile-real.jpg',
     links: [
       { 
         icon: Linkedin, 
@@ -47,6 +47,7 @@ export default function Team() {
                 src={founder.image} 
                 alt={founder.name} 
                 className="member-photo"
+                loading="lazy"
               />
               <div className="image-overlay"></div>
             </div>
